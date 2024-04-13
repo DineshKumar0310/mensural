@@ -16,7 +16,7 @@ export function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/mensural" element={<LandingPage />} />
+        <Route path="/mensural/" element={<LandingPage />} />
         <Route path="/mensural/home" element={<Home/>}/>
         <Route path="/mensural/signup" element={<SignupForm />} />
         <Route path="/mensurla/signin" element={<SigninForm />} />
