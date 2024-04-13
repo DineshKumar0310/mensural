@@ -40,7 +40,7 @@ const NotesPage = () => {
     <div className="container mx-auto px-4 py-8 flex flex-col items-center" style={{ backgroundColor: '#F3F4F6' }}> {/* Added background color */}
       {/* Back button */}
       <button
-        onClick={() => history('/home')}
+        onClick={() => history('/mensural/home')}
         className="absolute top-0 left-0 m-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
       >
         <FontAwesomeIcon icon={faArrowLeft} className="mr-2" />

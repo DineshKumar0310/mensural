@@ -17,13 +17,13 @@ export function App() {
     <Router>
       <Routes>
         <Route path="/mensural" element={<LandingPage />} />
-        <Route path="/home" element={<Home/>}/>
-        <Route path="/signup" element={<SignupForm />} />
-        <Route path="/signin" element={<SigninForm />} />
-        <Route path="/Calendar" element={<CalendarView/>}/>
-        <Route path="/notes" element={<NotesPage/>}/>
-        <Route path="/safety" element={<HistoryPage/>}/>
-        <Route path="/facts" element={<Knowledge/>}/>
+        <Route path="/mensural/home" element={<Home/>}/>
+        <Route path="/mensural/signup" element={<SignupForm />} />
+        <Route path="/mensurla/signin" element={<SigninForm />} />
+        <Route path="/mensurla/Calendar" element={<CalendarView/>}/>
+        <Route path="/mensurla/notes" element={<NotesPage/>}/>
+        <Route path="/mensurla/safety" element={<HistoryPage/>}/>
+        <Route path="/mensurla/facts" element={<Knowledge/>}/>
       </Routes>
     </Router>
   );

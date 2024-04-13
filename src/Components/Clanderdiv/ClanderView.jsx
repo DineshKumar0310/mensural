@@ -45,7 +45,7 @@ const CalendarView = () => {
 
   const handleBackButtonClick = () => {
     setPrediction(null); // Reset prediction when back button is clicked
-    history('/home'); // Navigate to home page
+    history('/mensural/home'); // Navigate to home page
   };
 
   const handleRefreshButtonClick = () => {
