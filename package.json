@@ -1,6 +1,6 @@
 {
-  "homepage": "https://github.com/DINEZZZZZ/mensural",
-  "name": "mensuraltracker",  
+  "homepage": "https://mensuraltracker.github.io/mensural/",
+  "name": "mensuraltracker",
   "private": true,
   "version": "0.0.0",
   "type": "module",
