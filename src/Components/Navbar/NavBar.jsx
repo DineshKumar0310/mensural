@@ -16,22 +16,22 @@ const NavBar = () => {
         {/* Conditionally render the ul only on medium screens and above */}
         <ul className="hidden md:flex space-x-4">
           <li>
-            <Link to="/home" className="text-white hover:text-gray-300">
+            <Link to="/mensural/home" className="text-white hover:text-gray-300">
               Home
             </Link>
           </li>
           <li>
-            <Link to="/calendar" className="text-white hover:text-gray-300">
+            <Link to="/mensural/calendar" className="text-white hover:text-gray-300">
               Calendar
             </Link>
           </li>
           <li>
-            <Link to="/safety" className="text-white hover:text-gray-300">
+            <Link to="/mensural/safety" className="text-white hover:text-gray-300">
               Safety
             </Link>
           </li>
         </ul>
-        <Link to="/" className="text-white hover:text-gray-300">
+        <Link to="/mensural/" className="text-white hover:text-gray-300">
               <FontAwesomeIcon icon={faSignOutAlt} /> Logout
             </Link>
       </div>

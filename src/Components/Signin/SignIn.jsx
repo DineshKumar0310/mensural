@@ -19,7 +19,7 @@ const SigninForm = () => {
         password
       });
       console.log('Signin successful:', response.data);
-      navigate('/home');
+      navigate('/mensural/home');
       
     } catch (error) {
       console.error('Signin failed:', error.response ? error.response.data : error.message);

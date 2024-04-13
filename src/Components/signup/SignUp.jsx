@@ -34,7 +34,7 @@ const SignupForm = () => {
         username
       });
       console.log('Signup successful:', response.data);
-      navigate('/signin');
+      navigate('/mensural/signin');
       // Navigate to the sign-in page after successful sign-up
     } catch (error) {
       console.error('Signup failed:', error.response ? error.response.data : error.message);
