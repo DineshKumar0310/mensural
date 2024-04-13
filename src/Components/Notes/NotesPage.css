@@ -1,0 +1,50 @@
+/* NotesPage.css */
+
+/* Container styles */
+.notes-container {
+    max-width: 600px; /* Limit the width of the container */
+    margin: 0 auto; /* Center the container horizontally */
+    padding-top: 50px; /* Add some top padding */
+  }
+  
+  /* Save button styles */
+  .btn-save {
+    background-color: #4caf50; /* Green background color */
+    border: none;
+    color: white;
+    padding: 14px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-save:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  
+  /* Saved notes styles */
+  .saved-notes {
+    margin-top: 40px; /* Add margin at the top */
+  }
+  
+  .saved-notes ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .saved-notes li {
+    background-color: #f0f0f0; /* Light gray background */
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  }
+  
+  .saved-notes li:last-child {
+    margin-bottom: 0; /* Remove margin for the last item */
+  }
+  
